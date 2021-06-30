@@ -8,7 +8,7 @@ The language aims at supporting individuals that are interested in following a d
 3. defining health objectives (weight loss, waist size improvement, etc.)
 4. reporting physical exercise
 5. recording health assessment for a given day (weight, waist size, etc.)
-6. Allows some user configuration/customization of the language semantics (default values, etc.)
+6. Allows some user configuration/customization of the language semantics (default values, types and categories, etc.)
  
 In the first draft of this DSL, we will only pursue the first two goals.
 

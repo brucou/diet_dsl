@@ -91,13 +91,13 @@ Meals:
 - dinner
 
 Categories:
-- Fruits
-- Vegetables
-- Legumes
-- Sweets
+- Fruit
+- Vegetable
+- Legume
+- Sweet
 - Fish 
 - Meat
-- Milk products
+- Milk product
 
 Type:
 - Solid

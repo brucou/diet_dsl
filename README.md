@@ -84,7 +84,7 @@ There should be defaults so that this is rather infrequent.
 
 An example is as follows:
 
-```haskell
+```yaml
 Meals:
 - breakfast
 - lunch

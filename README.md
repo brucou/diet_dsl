@@ -64,7 +64,7 @@ On the DATE_FORMAT:
   - ?
 - at dinner:
   - x1 Dr Oetker Spinaci Ristorante Pizza
-- at USER_DEFINED_MEAL
+- at USER_DEFINED_MEAL:
   - ...
 
 On the DATE_FORMAT, at breakfast:

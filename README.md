@@ -10,7 +10,7 @@ The language aims at supporting individuals that are interested in following a d
 5. recording health assessment for a given day (weight, waist size, etc.)
 6. Allows some user configuration/customization of the language semantics (default values, types and categories, etc.)
  
-In the first draft of this DSL, we will only pursue the first two goals.
+In the first draft of this DSL, we will only pursue the first two goals and the last one.
 
 # Language definition
 ## Aliments and their nutrition profile
@@ -56,7 +56,7 @@ The daily food intake section of the DSL lets the user declare his food intake a
 
 An example is as follows:
 
-```
+```haskell
 On the DATE_FORMAT:
 - at breakfast:
   - alpro almond vanilla (small)
@@ -78,3 +78,32 @@ On the DATE_FORMAT, at dinner:
 ```
 
 Note that the existence of two formats is creating edge cases that will have to be handle. Such is the case when on the same day, for the same meal a user defines distinct food intakes in distinct formats. The food intakes should be summed appropriately nonetheless.
+
+## User configuration
+There should be defaults so that this is rather infrequent.
+
+An example is as follows:
+
+```haskell
+Meals:
+- breakfast
+- lunch
+- dinner
+
+Categories:
+- Fruits
+- Vegetables
+- Legumes
+- Sweets
+- Fish 
+- Meat
+- Milk products
+
+Type:
+- Solid
+- Liquid (cream-like)
+- Liquid (sauce-like)
+- Liquid (oil-like)
+- Liquid (water-like)
+
+```
